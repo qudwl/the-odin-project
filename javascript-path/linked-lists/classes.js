@@ -121,4 +121,40 @@ export class LinkedList {
         }
         return result
     }
+    /**
+     * Insert value at index
+     * @param {any} value
+     * @param {number} index
+     */
+    insertAt(value, index) {
+        if (index === 0) this.prepend(value)
+        let currentNode = this.head
+        let currentIndex = 0
+
+        while(currentNode && currentIndex < index - 1) {
+            currentNode = currentNode.nextNode
+            currentIndex++
+        }
+
+        const newNode = new Node(value)
+        newNode.nextNode = currentNode.nextNode
+        currentNode.nextNode = newNode
+    }
+    /**
+     * Remove node at index
+     * 
+     * @param {number} index
+     */
+    removeAt(index) {
+        let currentNode = this.head
+        let currentIndex = 0
+
+        while (currentNode && currentIndex < index - 1) {
+            currentNode = currentNode.nextNode
+            currentIndex++
+        }
+
+        if (currentNode.nextNode)
+            currentNode.nextNode = currentNode.nextNode.nextNode
+    }
 }
