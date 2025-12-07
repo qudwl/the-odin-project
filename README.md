@@ -48,7 +48,8 @@ The projects are organized by curriculum sections. Click on a directory to view 
 - **[Restaurant](./javascript-path/restaurant/)**: DOM manipulation
 - **[Todo List](./javascript-path/todo-list)**: Webpack bundling and S.O.L.I.D principles.
 - **[Weather App](./javascript-path/weather-app)**: Async/Await and API integration.
-- **[Recursion](./javascript-path/recursion)**: Recursion practice
+- **[Recursion](./javascript-path/recursion)**: Recursion practice.
+- **[Linked Lists](./javascript-path/linked-lists)**: Creating a linked list.
 
 *(Note: List continues as I progress through the curriculum.)*
 
