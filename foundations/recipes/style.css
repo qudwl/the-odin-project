@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+}
+
+main > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+main > div > div {
+    max-width: 50%;
+}
+
+li {
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    main > div {
+        flex-direction: column;
+    }
+    main > div > div {
+        max-width: 90%;
+    }
+}
