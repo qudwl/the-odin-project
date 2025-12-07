@@ -74,8 +74,8 @@ Throughout this journey, I have learned how to:
 
 If you'd like to discuss my code or have any feedback, feel free to reach out!
 
-* **GitHub:** [@YourUsername](https://github.com/qudwl)
-* **LinkedIn:** [Your Name](https://linkedin.com/in/qudwl)
+* **GitHub:** [@qudwl](https://github.com/qudwl)
+* **LinkedIn:** [Byeongji Lim](https://linkedin.com/in/qudwl)
 
 ---
 
