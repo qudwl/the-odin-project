@@ -36,8 +36,8 @@ The projects are organized by curriculum sections. Click on a directory to view 
 - **[Recipe Page](./foundations/recipes)**: A basic HTML webpage.
 - **[Landing Page](./foundations/landing-page)**: CSS Flexbox layout practice.
 - **[Rock Paper Scissors](./foundations/rock-paper-scissors)**: First JavaScript game implementation.
-<!-- - **[Etch-a-Sketch](./foundations/etch-a-sketch)**: DOM manipulation practice.
-- **[Calculator](./foundations/calculator)**: Mathematical logic and UI. -->
+- **[Etch-a-Sketch](./foundations/etch-a-sketch)**: DOM manipulation practice.
+<!-- - **[Calculator](./foundations/calculator)**: Mathematical logic and UI. -->
 
 ### 🚀 Full Stack Path
 *Advanced concepts, backend integration, and frameworks.*
