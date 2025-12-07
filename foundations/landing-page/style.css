@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+main > div {
+    display: flex;
+    width: 80%;
+    padding: 100px 10%;
+    min-height: 50%;
+}
+
+header, main > div:first-of-type, footer {
+    background-color: #1f2937;
+}
+
+main > div:first-of-type h1, header h3 {
+    color: #f9faf8;
+}
+
+main > div:first-of-type p, header li, footer {
+    color: #e5e7eb;
+}
+
+header, main, footer {
+    display: flex;
+}
+
+header {
+    padding: 20px 10%;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    flex-direction: column;
+}
+
+main > div:first-of-type {
+    justify-content: center;
+    align-items: center;
+}
+
+main > div:first-of-type button {
+    color: white;
+    background-color: #3882f6;
+    border-color: #3882f6;
+}
+
+main > div:first-of-type > div {
+    margin-right: 20px;
+}
+
+main > div:first-of-type > div > * {
+    margin-bottom: 20px;
+}
+
+main > div:first-of-type img {
+    max-width: 50%;
+    margin-left: 20px;
+}
+
+main > div:first-of-type h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+main > div:nth-of-type(2) {
+    flex-direction: column;
+}
+
+main > div:nth-of-type(2) > h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+#ctl-box {
+    background-color: #3882f6;
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#ctl-box button {
+    border-color: white;
+    color: white;
+}
+
+#info-box {
+    text-align: center;
+}
+
+#info-box h2 {
+    margin: 25px 0;
+}
+
+#random-info-box {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+#random-info-box img {
+    max-width: 150px;
+    border: 5px solid #3882f6;
+    background-color: #3882f6;
+    border-radius: 25px;
+}
+
+#quote-box {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#quote-box > p:last-of-type {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+button {
+    border: 2px solid;
+    background: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 0px 10px;
+}

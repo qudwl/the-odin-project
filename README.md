@@ -33,9 +33,9 @@ The projects are organized by curriculum sections. Click on a directory to view 
 
 ### 🧱 Foundations
 *Basic web development concepts including HTML, CSS, JavaScript basics, and Git.*
-<!-- - **[Recipe Page](./foundations/recipes)**: A basic HTML webpage.
+- **[Recipe Page](./foundations/recipes)**: A basic HTML webpage.
 - **[Landing Page](./foundations/landing-page)**: CSS Flexbox layout practice.
-- **[Rock Paper Scissors](./foundations/rock-paper-scissors)**: First JavaScript game implementation.
+<!-- - **[Rock Paper Scissors](./foundations/rock-paper-scissors)**: First JavaScript game implementation.
 - **[Etch-a-Sketch](./foundations/etch-a-sketch)**: DOM manipulation practice.
 - **[Calculator](./foundations/calculator)**: Mathematical logic and UI. -->
 
