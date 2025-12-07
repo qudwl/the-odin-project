@@ -41,8 +41,8 @@ The projects are organized by curriculum sections. Click on a directory to view 
 
 ### 🚀 Full Stack Path
 *Advanced concepts, backend integration, and frameworks.*
-<!-- - **[Sign-up Form](./javascript-path/sign-up-form)**: Form validation and intricate CSS.
-- **[Admin Dashboard](./javascript-path/admin-dashboard)**: CSS Grid layout showcase.
+- **[Sign-up Form](./javascript-path/sign-up-form)**: Form validation and intricate CSS.
+<!-- - **[Admin Dashboard](./javascript-path/admin-dashboard)**: CSS Grid layout showcase.
 - **[Library App](./javascript-path/library)**: Object Constructors and LocalStorage.
 - **[Tic Tac Toe](./javascript-path/tic-tac-toe)**: Factory Functions and Module Pattern.
 - **[Todo List](./javascript-path/todo-list)**: Webpack bundling and S.O.L.I.D principles.
