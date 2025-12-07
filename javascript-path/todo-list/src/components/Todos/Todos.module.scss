@@ -1,0 +1,38 @@
+@use "/src/style/mixins.scss" as *;
+@use "/src/style/variables.scss" as *;
+
+.todos {
+  width: calc(100vw - $width-sidebar);
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: $color-background-raised;
+  padding: 32px;
+  padding-top: 32px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  transition: padding-top $animation-time ease-in-out;
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  @include desktop {
+    h1 {
+      @include invisible;
+    }
+  }
+
+  @include elevation("medium");
+
+  @include mobile {
+    width: 100vw;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+  }
+}
