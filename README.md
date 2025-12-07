@@ -44,8 +44,8 @@ The projects are organized by curriculum sections. Click on a directory to view 
 - **[Sign-up Form](./javascript-path/sign-up-form)**: Form validation and intricate CSS.
 - **[Admin Dashboard](./javascript-path/admin-dashboard)**: CSS Grid layout showcase.
 - **[Library App](./javascript-path/library)**: Object Constructors and LocalStorage.
-<!-- - **[Tic Tac Toe](./javascript-path/tic-tac-toe)**: Factory Functions and Module Pattern.
-- **[Todo List](./javascript-path/todo-list)**: Webpack bundling and S.O.L.I.D principles.
+- **[Tic Tac Toe](./javascript-path/tic-tac-toe)**: Factory Functions and Module Pattern.
+<!-- - **[Todo List](./javascript-path/todo-list)**: Webpack bundling and S.O.L.I.D principles.
 - **[Weather App](./javascript-path/weather-app)**: Async/Await and API integration. -->
 
 *(Note: List continues as I progress through the curriculum.)*
