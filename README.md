@@ -46,7 +46,7 @@ The projects are organized by curriculum sections. Click on a directory to view 
 - **[Library App](./javascript-path/library)**: Object Constructors and LocalStorage.
 - **[Tic Tac Toe](./javascript-path/tic-tac-toe)**: Factory Functions and Module Pattern.
 - **[Restaurant](./javascript-path/restaurant/)**: DOM manipulation
-<!-- - **[Todo List](./javascript-path/todo-list)**: Webpack bundling and S.O.L.I.D principles.
+- **[Todo List](./javascript-path/todo-list)**: Webpack bundling and S.O.L.I.D principles.
 - **[Weather App](./javascript-path/weather-app)**: Async/Await and API integration. -->
 
 *(Note: List continues as I progress through the curriculum.)*
