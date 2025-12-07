@@ -1,0 +1,72 @@
+body {
+    background-color: #E5E3C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: #B4CFB0;
+    width: 400px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+main > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+main button {
+    border: 0px;
+    background-color: #94B49F;
+    color: #E5E3C9;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 50px;
+    font-weight: bold;
+    user-select: none;
+    flex-grow: 1;
+    margin: 0px 15px;
+    min-width: 60px;
+}
+
+main > div:last-of-type > button:last-of-type {
+    flex-grow: 3;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    border-radius: 50px;
+    user-select: none;
+    vertical-align: middle;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+    }
+}
