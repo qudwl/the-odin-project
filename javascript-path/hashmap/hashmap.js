@@ -22,11 +22,10 @@ export class HashMap {
     }
 
     set(key, value) {
-        this.buckets.at(this.hash(key)).append(key, value)
+        this.buckets.at(this.hash(key)).set(key, value)
 
         if (this.length() > this.capacity * this.loadFactor) {
-            this.capacity++
-            this.buckets[this.capacity - 1] = new List(this.capacity - 1)
+            this.increaseBucketSize()
         }
     }
 
@@ -93,6 +92,16 @@ export class HashMap {
 
         return result
     }
+
+    increaseBucketSize() {
+        const entries = this.entries()
+        this.capacity *= 2
+        this.buckets = Array.from({length: this.capacity}, (_, i) => new List(i))
+
+        for (let entry of entries) {
+            this.set(entry[0], entry[1])
+        }
+    }
 }
 
 class Node {
@@ -111,15 +120,6 @@ class List {
             this.setFirst(key, value)
         } else {
             this.clear()
-        }
-    }
-    append(key, value) {
-        if (!this.head) {
-            this.setFirst(key, value)
-        } else {
-            this.tail.nextNode = new Node(key, value)
-            this.tail = this.tail.nextNode
-            this.length++
         }
     }
     remove(key) {
@@ -144,9 +144,31 @@ class List {
         console.log(`Key ${key} not found`)
     }
     setFirst(key, value) {
-        this.head = new Node(value, key)
+        this.head = new Node(key, value)
         this.tail = this.head
         this.length = 1
+    }
+    set(key, value) {
+        let currentNode = this.head
+
+        if (currentNode) {
+            while(true) {
+                if (currentNode.key === key) {
+                    currentNode.value = value
+                    return
+                } else if (currentNode.nextNode) {
+                    currentNode = currentNode.nextNode
+                } else {
+                    currentNode.nextNode = new Node(key, value)
+                    this.tail = currentNode.nextNode
+                    this.length++
+                    return
+                }
+            }
+        }
+        else {
+            this.setFirst(key, value)
+        }
     }
     clear() {
         this.head = undefined

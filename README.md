@@ -50,6 +50,7 @@ The projects are organized by curriculum sections. Click on a directory to view 
 - **[Weather App](./javascript-path/weather-app)**: Async/Await and API integration.
 - **[Recursion](./javascript-path/recursion)**: Recursion practice.
 - **[Linked Lists](./javascript-path/linked-lists)**: Creating a linked list.
+- **[HashMap](./javascript-path/hashmap)**: Creating a hashmap.
 
 *(Note: List continues as I progress through the curriculum.)*
 
