@@ -18,12 +18,12 @@ The Odin Project (TOP) provides a comprehensive, open-source full-stack curricul
 
 Here are the primary technologies used throughout these projects:
 
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | JavaScript (ES6+), HTML5, CSS3 |
+| Category            | Technologies                          |
+| :------------------ | :------------------------------------ |
+| **Languages**       | JavaScript (ES6+), HTML5, CSS3        |
 | **Frameworks/Libs** | React, Node.js, Express, Tailwind CSS |
-| **Testing** | Jest |
-| **Tools** | Git, Webpack, Linux/WSL, VS Code |
+| **Testing**         | Jest                                  |
+| **Tools**           | Git, Webpack, Linux/WSL, VS Code      |
 
 ---
 
@@ -51,6 +51,7 @@ The projects are organized by curriculum sections. Click on a directory to view 
 - **[Recursion](./javascript-path/recursion)**: Recursion practice.
 - **[Linked Lists](./javascript-path/linked-lists)**: Creating a linked list.
 - **[HashMap](./javascript-path/hashmap)**: Creating a hashmap.
+- **[Mini Message Board](./nodejs/mini-message-board)**: Basic express message board
 
 *(Note: List continues as I progress through the curriculum.)*
 
@@ -65,6 +66,7 @@ There will be some projects here that I'm pretty proud of.
 ## 🧠 What I've Learned
 
 Throughout this journey, I have learned how to:
+
 * Write semantic HTML and accessible CSS.
 * Utilize Git for version control and collaborative workflows.
 * Debug effectively using Chrome DevTools.
